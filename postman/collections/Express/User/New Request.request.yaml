@@ -1,0 +1,13 @@
+$kind: http-request
+url: http://localhost:5000/api/v1/users
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"name\" : \"Abusayed Shuvo\",\r
+
+    \    \"age\" : \" 29\"\r
+
+    }"
+order: 1000
